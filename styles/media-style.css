@@ -44,8 +44,8 @@
         width: 300px;
     }
     #utube iframe{
-        width: 400px;
-        height: 200px;
+        width: 350px;
+        height: 100px;
     }
     
 
@@ -59,7 +59,6 @@
     footer{
         width: 300px;
         height: 120px;
-        padding-right: 10px;
     }
     footer img{
         width: 200px;
