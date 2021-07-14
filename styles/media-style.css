@@ -42,6 +42,9 @@
         grid-template-columns: repeat(1, 1fr);
         align-items: center;
     }
+    .players{
+        padding-left: 30px;
+    }
 
 
     /* -------------Youtube------------------ */
@@ -55,6 +58,9 @@
     
 
     /* ------------Results---------------- */
+    #last-results{
+        padding-left: 30px;
+    }
     #last-results #years{
         grid-template-columns: repeat(1, 1fr);
     }
