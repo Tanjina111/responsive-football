@@ -9,14 +9,11 @@
         width: 396px;
         height: 100%;
         padding-left: 15px;
-        padding-right: 0;
     }
     .heading{
         display: flex;
         flex-direction: column;
-        padding-left: 15px;
-        padding-right: 0;
-        padding: 10px;
+        padding: 20px;
         grid-row-gap: 50px;
     }
     .heading h1{
@@ -47,8 +44,8 @@
         width: 300px;
     }
     .utube iframe{
-        width: 400px;
-        height: 250px;
+        width: 500px;
+        height: 350px;
     }
     
 
