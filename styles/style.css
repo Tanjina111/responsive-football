@@ -6,6 +6,10 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 main{
     display: flex;
@@ -13,19 +17,26 @@ main{
     align-items: center;
 }
 .container{
-    width: 1050px;
+    width: 1000px;
+}
+span{
+    color: #2D25A0;
+    font-weight: bold;
 }
 
 
 /* ------------------- 
    ----- Heading -----
    ------------------- */
+ 
 .heading{
+    width: 955px;
+    height: 480px;
     background: #2D25A0;
     display: flex;
     justify-content: space-between;
     padding-left: 150px;
-    padding-right: 141px;
+    padding-right: 120px;
     padding-top: 153px;
     padding-bottom: 86px;
     margin-bottom: 70px;
@@ -75,12 +86,16 @@ button:hover{
 /* ------------------------------ */
 /* ------ Player's-Section ------ */
 /* ------------------------------ */
+
 .players-section{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 27px;
     margin-bottom: 165px;
+    justify-content: center;
+    align-items: center;
+
 }
 .players{
     width: 300px;
@@ -103,7 +118,6 @@ button:hover{
     color: #6C6C6C;
     font-weight: normal;
 }
-
 
 /* --------------- */
 /* -----Footer---- */

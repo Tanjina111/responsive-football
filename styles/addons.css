@@ -1,0 +1,24 @@
+/* ----------My-Assings--------- */
+
+.last-results{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 106px;
+    margin-top: 80px;
+}
+.years{
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   grid-gap: 25px;
+   margin-bottom: 20px;
+}
+.last-result a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    
+}
