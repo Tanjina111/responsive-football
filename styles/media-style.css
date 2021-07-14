@@ -7,7 +7,6 @@
     /* ------------------Heading-------------- */
     main{
         width: 100%;
-        margin-left: 40px;
     }
     #heading, .container{
         width: 396px;
@@ -43,7 +42,7 @@
         align-items: center;
     }
     .players{
-        padding-left: 30px;
+        padding-left: 40px;
     }
 
 
@@ -59,7 +58,7 @@
 
     /* ------------Results---------------- */
     #last-results{
-        padding-left: 30px;
+        padding-left: 40px;
     }
     #last-results #years{
         grid-template-columns: repeat(1, 1fr);
