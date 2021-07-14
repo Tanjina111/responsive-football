@@ -5,21 +5,21 @@
  @media only screen and (max-width: 688px){
 
     /* ------------------Heading-------------- */
-    .heading, .container{
+    #heading, .container{
         width: 396px;
         height: 100%;
         padding-left: 15px;
     }
-    .heading{
+    #heading{
         display: flex;
         flex-direction: column;
         padding: 20px;
         grid-row-gap: 50px;
     }
-    .heading h1{
+    #heading h1{
         font-size: 40px;
     }
-    .head-banner img{
+    #head-banner img{
         width: 300px;
         height: 260px;
     }
@@ -33,24 +33,24 @@
 
 
     /* ------------Player-Section------------- */
-    .players-section{
+    #players-section{
         grid-template-columns: repeat(1, 1fr);
         align-items: center;
     }
 
 
     /* -------------Youtube------------------ */
-    .utube, .last-results{
+    #utube, #last-results{
         width: 300px;
     }
-    .utube iframe{
+    #utube iframe{
         width: 500px;
         height: 350px;
     }
     
 
     /* ------------Results---------------- */
-    .last-results .years{
+    #last-results #years{
         grid-template-columns: repeat(1, 1fr);
     }
     

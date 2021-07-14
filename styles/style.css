@@ -30,7 +30,7 @@ main{
    ----- Heading -----
    ------------------- */
  
-.heading{
+#heading{
     width: 956px;
     height: 480px;
     background: #2D25A0;
@@ -42,7 +42,7 @@ main{
     padding-bottom: 86px;
     margin-bottom: 70px;
 }
-.head-title{
+#head-title{
     color: white;
     display: flex;
     flex-direction: column;
@@ -74,11 +74,11 @@ button:hover{
     transform: scale(1.1);
     transition: transform 0.1s ease-in-out;
 }
-.head-banner img{
+#head-banner img{
     width: 556.01px;
     height: 438px;
 }
-.heading:hover .head-banner img{
+#heading:hover #head-banner img{
     transform: scale(1.1);
     transition: transform 0.4s ease-in-out;
 }
@@ -88,7 +88,7 @@ button:hover{
 /* ------ Player's-Section ------ */
 /* ------------------------------ */
 
-.players-section{
+#players-section{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
@@ -136,14 +136,14 @@ footer img{
     height: 110px;
     margin-bottom: 20px;
 }
-.icons{
+#icons{
     display: flex;
     width: 170px;
     height: 32px;
     margin-bottom: 20px;
     justify-content: space-between;
 }
-.icons .fab{
+#icons .fab{
     width: 32px;
     height: 32px;
     color: gray;
