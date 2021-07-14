@@ -1,29 +1,66 @@
 /* -------------------------------- */
 /* ----------Mobile-screen--------- */
-@media only screen and (max-width: 688px){
-    .heading{
-        width: 100%;
+/* -------------------------------- */
+
+ @media only screen and (max-width: 688px){
+
+    /* ------------------Heading-------------- */
+    .heading, .container{
+        width: 400px;
         height: 100%;
     }
     .heading{
+        display: flex;
         flex-direction: column;
-        padding-left: 20px;
-        padding-top: 10px;
+        padding: 10px;
         grid-row-gap: 50px;
     }
-    /* .head-banner img{
-        width: 400px;
-        height: 320px;
-    } */
+    .heading h1{
+        font-size: 40px;
+    }
+    .head-banner img{
+        width: 300px;
+        height: 260px;
+    }
+
+
+    /* ------------------Container------------- */
     .container{
+        justify-content: center;
         align-items: center;
     }
+
+
+    /* ------------Player-Section------------- */
     .players-section{
         grid-template-columns: repeat(1, 1fr);
-        /* margin-left: 40px; */
     }
-    /* footer{
+
+
+    /* -------------Youtube------------------ */
+    .utube, .last-results{
+        width: 300px;
+    }
+    .utube iframe{
+        width: 350px;
+        height: 150px;
+    }
+    
+
+    /* ------------Results---------------- */
+    .last-results .years{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+
+    /* -----------------Footer------------- */
+    footer{
         width: 300px;
         height: 120px;
-    } */
-}    
+        padding-right: 50px;
+    }
+    footer img{
+        width: 200px;
+        height: 120px;
+    }
+} 

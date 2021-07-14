@@ -1,5 +1,13 @@
-/* ----------My-Assings--------- */
+/* ----------My-Addings--------- */
 
+/* ----------Youtube----------- */
+.utube{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* ------------Results-------- */
 .last-results{
     display: flex;
     flex-direction: column;
