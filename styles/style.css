@@ -121,12 +121,21 @@ footer img{
     height: 110px;
     margin-bottom: 20px;
 }
+.icons{
+    display: flex;
+    width: 170px;
+    height: 32px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
 .icons .fab{
+    width: 32px;
+    height: 32px;
     color: gray;
-    margin: 14px;
 }
 footer p{
     font-size: 18px;
+    margin: 0;
 }
 footer .fa-copyright{
     font-size: 13px;
