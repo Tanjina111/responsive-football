@@ -5,13 +5,17 @@
  @media only screen and (max-width: 688px){
 
     /* ------------------Heading-------------- */
+    main{
+        margin-left: 20px;
+    }
     .heading, .container{
-        width: 400px;
+        width: 396px;
         height: 100%;
     }
     .heading{
         display: flex;
         flex-direction: column;
+        padding-left: 15px;
         padding: 10px;
         grid-row-gap: 50px;
     }
@@ -43,8 +47,8 @@
         width: 300px;
     }
     .utube iframe{
-        width: 350px;
-        height: 150px;
+        width: 400px;
+        height: 250px;
     }
     
 
